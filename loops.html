@@ -8,10 +8,21 @@
 <body>
 
     <script>
-        var num = 0;
-        while (num < 100) {
-            num ++;
-            document.write(num);
+        var age = 0;
+        while (age < 21) {
+            age ++;
+            if (age == 1) {
+                document.write('When Sally turned ' + age + ' she got a onesie.');
+            }
+            else if (age == 18) {
+                document.write('When Sally turned ' + age + ' she got a car.');
+            }
+            else if (age == 21) {
+                document.write('When Sally turned ' + age + ' she got a house.');
+            }
+            else {
+                document.write('When Sally turned ' + age + ' she got a $1.');
+            }
             document.write('<br>');
         }
     </script>
